@@ -1,13 +1,13 @@
-package springproject.pennybee;
+package pennybee.backend;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class PennybeeApplication {
+public class BackendApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(PennybeeApplication.class, args);
+		SpringApplication.run(BackendApplication.class, args);
 	}
 
 }
